@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Pablo",
+      "empresa": "Gatico Negro",
+      "email": "correo@correo.com",
+      "telefono": "1234567899",
+      "notas": "No se que decir",
+      "id": 1
+    },
+    {
+      "nombre": "Pedro",
+      "empresa": "Nosifu",
+      "email": "corri@corri.com",
+      "telefono": "1234567899",
+      "notas": "ni idea weon",
+      "id": 2
+    },
+    {
+      "nombre": "Karensio",
+      "empresa": "Penelocope",
+      "email": "correo32@correo.com",
+      "telefono": "12232412421",
+      "notas": "Ni puta idea",
+      "id": 3
+    },
+    {
+      "nombre": "Federico",
+      "empresa": "Fede rico import",
+      "email": "correo2@correo.com",
+      "telefono": "1234567865",
+      "notas": "Ni se pa que toy aqui nojose",
+      "id": 4
+    }
+  ]
+}
