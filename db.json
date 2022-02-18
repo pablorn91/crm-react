@@ -39,6 +39,14 @@
       "telefono": "",
       "notas": "",
       "id": 5
+    },
+    {
+      "nombre": "Polloneitor",
+      "empresa": "Corral Corpotación Pollistica",
+      "email": "corral@corral.com",
+      "telefono": "123123123123",
+      "notas": "COCO COCO soy un gallo macho",
+      "id": 6
     }
   ]
 }

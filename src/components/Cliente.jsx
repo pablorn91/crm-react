@@ -25,6 +25,7 @@ const Cliente = ({cliente}) => {
             <button
                 type='button'
                 className='bg-indigo-600 hover:bg-indigo-700 block w-full text-white p-2 uppercase font-bold text-xs mt-3'
+                onClick={() => navigate(`/clientes/editar/${id}`)}
                 >Editar</button>
             
             <button
