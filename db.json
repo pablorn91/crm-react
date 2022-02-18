@@ -1,20 +1,12 @@
 {
   "clientes": [
     {
-      "nombre": "Pablo",
+      "nombre": "Miguel",
       "empresa": "Gatico Negro",
       "email": "correo@correo.com",
       "telefono": "1234567899",
       "notas": "No se que decir",
       "id": 1
-    },
-    {
-      "nombre": "Pedro",
-      "empresa": "Nosifu",
-      "email": "corri@corri.com",
-      "telefono": "1234567899",
-      "notas": "ni idea weon",
-      "id": 2
     },
     {
       "nombre": "Karensio",
@@ -33,8 +25,8 @@
       "id": 4
     },
     {
-      "nombre": "Manuela",
-      "empresa": "Noteimporta C.A.",
+      "nombre": "Ricardo",
+      "empresa": "NoTe Importaciones C.A.",
       "email": "rico@rico.com",
       "telefono": "",
       "notas": "",
@@ -47,6 +39,14 @@
       "telefono": "123123123123",
       "notas": "COCO COCO soy un gallo macho",
       "id": 6
+    },
+    {
+      "nombre": "Mario",
+      "empresa": "BROS Corp.",
+      "email": "itsme@itsme.com",
+      "telefono": "543543432331",
+      "notas": "Wualuigui mama mia",
+      "id": 7
     }
   ]
 }

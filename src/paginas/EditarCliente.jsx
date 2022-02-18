@@ -30,13 +30,24 @@ const EditarCliente = () => {
 
   return (
     <>
-        <h1 className='font-black text-4xl text-blue-900'>Editar Cliente</h1>
-        <p className='mt-3'>Edita los campos para actualizar el cliente</p>
+        {cliente?.nombre ? (
+          <>
+            <h1 className='font-black text-4xl text-blue-900'>Editar Cliente</h1>
+            <p className='mt-3'>Edita los campos para actualizar el cliente</p>
+          </>
+        ) : (
+          <div className='text-center'>
+            <h1 className='font-black text-4xl text-blue-900'>No hay coincidencias </h1>
+            <p className='mt-3'>Intenta volver atrás</p>
+          </div>
+        )}
 
-        <Formulario 
-          cliente= {cliente}
-          cargando={cargando}
-        />
+        {cliente?.nombre && (
+            <Formulario 
+              cliente= {cliente}
+              cargando={cargando}
+            />
+        )}
     </>
   )
 }
